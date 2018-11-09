@@ -3,8 +3,24 @@ Code from paper 'Uncertainty in Neural Networks: Bayesian Ensembling'
 
 https://arxiv.org/abs/1810.05546
 
-[PLACEHOLDER REPO] 
+[FULL EXPERIMENTAL CODE AND DEMOS TO BE UPLOADED SOON]
 
-I will add stuff to this soon! 
+For queries, email me at tp424 [at] cam.ac.uk.
 
-If urgently required, email tp424 [at] cam.ac.uk.
+### Trimmed Down Code
+
+Folder 03_trimmed_down provides a carved out piece of code from the full experimental code (to be uploaded).
+
+script_methods.py - main program, run this file to produce some graphs
+DataGen.py - handles data set generation or read in
+utils.py - handles some plotting and support functions
+module_gp.py - code behind the equivalent gaussian processes
+module_NN_ens.py - where the magic happens! - includes the regularisation around initialisation values (the ‘anchor’ method, line 155). Is only set up for single or double layer fully connected NN.
+
+Other thoughts:
+- Does NOT include modules for the other methods, such as variational inference and HMC
+- I’m not sure how robust the code will be to deviations from the specific versions of packages (I had conflict issues between Tensorflow and Edward) and python (3.6) I used, so may require some tweaking depending on what you’re running
+- code in module_NN_ens.py (and more generally everywhere) is much more complex than needed - I added a lot of extra functionality during development and testing, trying things out which aren’t necessarily needed in the final version.
+- Hopefully variable names etc should be obvious enough, parameters I think you’ll want to vary are mainly controlled in the inputs section in script_methods.py
+
+

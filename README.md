@@ -3,19 +3,22 @@ Code from paper 'Uncertainty in Neural Networks: Bayesian Ensembling'
 
 https://arxiv.org/abs/1810.05546
 
-[FULL EXPERIMENTAL CODE AND DEMOS TO BE UPLOADED SOON]
+If you're new here, [tensorflow_fast_example](tensorflow_fast_example.ipynb) provides lightweight demo code for a Bayesian anchored ensemble in tensorflow.
+
+
+[FULL EXPERIMENTAL CODE AND MORE DEMOS TO BE UPLOADED SOON]
 
 For queries, email me at tp424 [at] cam.ac.uk.
 
 ### Trimmed Down Code
 
-Folder 03_trimmed_down provides a carved out piece of code from the full experimental code (still to be uploaded).
+Folder [03_trimmed_down](03_trimmed_down) provides a carved out piece of code from the full experimental code (still to be uploaded).
 
-- script_methods.py - main program, run this file to produce some graphs
-- DataGen.py - handles data set generation or read in
-- utils.py - handles some plotting and support functions
-- module_gp.py - code behind the equivalent gaussian processes
-- module_NN_ens.py - where the magic happens! - includes the regularisation around initialisation values (the ‘anchor’ method, line 155). Is only set up for single or double layer fully connected NN.
+- [script_methods.py](03_trimmed_down/script_methods.py) - main program, run this file to produce some graphs
+- [DataGen.py](03_trimmed_down/DataGen.py) - handles data set generation or read in
+- [utils.py](03_trimmed_down/utils.py) - handles some plotting and support functions
+- [module_gp.py](03_trimmed_down/module_gp.py) - code behind the equivalent gaussian processes
+- [module_NN_ens.py](03_trimmed_down/module_NN_ens.py) - where the magic happens! - includes the regularisation around initialisation values (the ‘anchor’ method, line 155). Is only set up for single or double layer fully connected NN.
 
 Other thoughts:
 - Does NOT include modules for the other methods, such as variational inference and HMC

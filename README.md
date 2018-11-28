@@ -3,7 +3,10 @@ Code from paper 'Uncertainty in Neural Networks: Bayesian Ensembling'
 
 https://arxiv.org/abs/1810.05546
 
-If you're new here, [tensorflow_fast_example](tensorflow_fast_example.ipynb) provides lightweight demo code for a Bayesian anchored ensemble in tensorflow.
+
+<img width="400" src="ensemble_intro.png">
+
+[tensorflow_fast_example](tensorflow_fast_example.ipynb) provides lightweight demo code for a Bayesian anchored ensemble in tensorflow.
 
 
 [FULL EXPERIMENTAL CODE AND MORE DEMOS TO BE UPLOADED SOON]

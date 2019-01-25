@@ -6,7 +6,7 @@ https://arxiv.org/abs/1810.05546
 
 <img width="400" src="ensemble_intro.png">
 
-[tensorflow_fast_example](tensorflow_fast_example.ipynb) provides lightweight demo code for a Bayesian anchored ensemble in tensorflow.
+[notebook_examples](notebook_examples) provides lightweight demo code for a Bayesian anchored ensemble.
 
 
 [FULL EXPERIMENTAL CODE AND MORE DEMOS TO BE UPLOADED SOON]

@@ -3,6 +3,9 @@ Code from paper 'Uncertainty in Neural Networks: Bayesian Ensembling'
 
 https://arxiv.org/abs/1810.05546
 
+[test_html](https://htmlpreview.github.io/?https://github.com/TeaPearce/Bayesian_NN_Ensembles/blob/master/test_1.html)
+[demo_html](https://htmlpreview.github.io/?https://github.com/TeaPearce/Bayesian_NN_Ensembles/blob/master/test_2.html)
+
 
 <img width="400" src="ensemble_intro.png">
 

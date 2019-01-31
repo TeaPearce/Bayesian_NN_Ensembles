@@ -1,11 +1,17 @@
-# Bayesian Ensembling
+# Uncertainty in Neural Networks: Bayesian Ensembling
 Code from paper 'Uncertainty in Neural Networks: Bayesian Ensembling': https://arxiv.org/abs/1810.05546
 
 Play with the [interactive demo here](https://htmlpreview.github.io/?https://github.com/TeaPearce/Bayesian_NN_Ensembles/blob/master/html_demos/demos/bayes_ens_demo_01.html).
 
-<img width="300" src="html_demos/images/html_demo_rec_02.gif">
+<p align="center">
+<img width="400" src="html_demos/images/html_demo_rec_02.gif"/img>  
+</p>
 
-<img width="300" src="ensemble_intro.png">
+<p align="center">
+<img width="400" src="ensemble_intro.png">
+</p>
+
+
 
 [notebook_examples](notebook_examples) provides lightweight demo code for a Bayesian anchored ensemble.
 

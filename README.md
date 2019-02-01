@@ -3,6 +3,8 @@ Code from paper 'Uncertainty in Neural Networks: Bayesian Ensembling: https://ar
 
 Play with the [interactive demo here](https://htmlpreview.github.io/?https://github.com/TeaPearce/Bayesian_NN_Ensembles/blob/master/html_demos/demos/bayes_ens_demo_01.html).
 
+[test](https://htmlpreview.github.io/?https://github.com/TeaPearce/Bayesian_NN_Ensembles/blob/master/html_demos/demos/test_butt.html).
+
 <p align="center">
 <img width="400" src="html_demos/images/html_demo_rec_02.gif"/img>  
 </p>

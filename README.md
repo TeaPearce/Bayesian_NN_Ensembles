@@ -1,9 +1,7 @@
 # Uncertainty in Neural Networks: Bayesian Ensembling
 Code from paper 'Uncertainty in Neural Networks: Bayesian Ensembling: https://arxiv.org/abs/1810.05546
 
-Play with the [interactive demo here](https://htmlpreview.github.io/?https://github.com/TeaPearce/Bayesian_NN_Ensembles/blob/master/html_demos/demos/bayes_ens_demo_01.html).
-
-[test button](https://htmlpreview.github.io/?https://github.com/TeaPearce/Bayesian_NN_Ensembles/blob/master/test_2.html).
+Play with the [interactive demo here](https://teapearce.github.io/portfolio/github_io_ens/). See how it compares to [dropout here](https://teapearce.github.io/portfolio/github_io_drop/).
 
 <p align="center">
 <img width="400" src="html_demos/images/html_demo_rec_02.gif"/img>  
@@ -13,12 +11,10 @@ Play with the [interactive demo here](https://htmlpreview.github.io/?https://git
 <img width="400" src="ensemble_intro.png">
 </p>
 
+[notebook_examples](notebook_examples) provides lightweight demo code for a Bayesian anchored ensemble in Keras and Tensorflow for regression and classification.
 
 
-[notebook_examples](notebook_examples) provides lightweight demo code for a Bayesian anchored ensemble.
-
-
-[FULL EXPERIMENTAL CODE AND MORE DEMOS TO BE UPLOADED SOON]
+[FULL EXPERIMENTAL CODE TO BE UPLOADED SOON]
 
 For queries, email me at tp424 [at] cam.ac.uk.
 

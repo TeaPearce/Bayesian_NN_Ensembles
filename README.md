@@ -1,5 +1,5 @@
 # Uncertainty in Neural Networks: Bayesian Ensembling
-Code from paper 'Uncertainty in Neural Networks: Bayesian Ensembling: https://arxiv.org/abs/1810.05546
+Code from paper 'Uncertainty in Neural Networks: Bayesian Ensembling' - https://arxiv.org/abs/1810.05546
 
 Play with the [interactive demo here](https://teapearce.github.io/portfolio/github_io_1_ens/). See how it compares to [dropout here](https://teapearce.github.io/portfolio/github_io_2_drop/).
 

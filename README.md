@@ -11,7 +11,7 @@ Play with the [interactive demo here](https://teapearce.github.io/portfolio/gith
 <img width="400" src="ensemble_intro.png">
 </p>
 
-[notebook_examples](notebook_examples) provides lightweight demo code for a Bayesian anchored ensemble in Keras and Tensorflow for regression and classification.
+[notebook_examples](notebook_examples) provides lightweight demo code for a Bayesian anchored ensemble in PyTorch / Keras / Tensorflow for regression and classification.
 
 
 [FULL EXPERIMENTAL CODE TO BE UPLOADED SOON]

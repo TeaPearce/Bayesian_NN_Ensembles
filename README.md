@@ -14,8 +14,6 @@ Play with the [interactive demo here](https://teapearce.github.io/portfolio/gith
 [notebook_examples](notebook_examples) provides lightweight demo code for a Bayesian anchored ensemble in PyTorch / Keras / Tensorflow for regression and classification.
 
 ### Main Code
-
-Folder [regression](regression) contains code to regression experiments as follows.
 - [script_methods.py](regression/script_methods.py) - this creates figure 4 of the paper, running 1-D regression example for GP, MC dropout, and Anchored Ensemble. Due to compatibility issues with Edward, HMC and VI are now handled elsewhere. 
 - [pymc_HMC_VI.py](regression/pymc_HMC_VI.py) - creates VI and HMC plots for figure 4 of paper.
 - [main_exp.py](regression/main_exp.py) - runs UCI benchmarking experiments.

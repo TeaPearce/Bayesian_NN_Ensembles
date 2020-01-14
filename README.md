@@ -1,4 +1,5 @@
-# Uncertainty in Neural Networks: Approximately Bayesian Ensembling
+# Uncertainty in Neural Networks: 
+# Approximately Bayesian Ensembling
 Code from paper 'Uncertainty in Neural Networks: Approximately Bayesian Ensembling' - https://arxiv.org/abs/1810.05546
 
 Play with the [interactive demo here](https://teapearce.github.io/portfolio/github_io_1_ens/). See how it compares to [dropout here](https://teapearce.github.io/portfolio/github_io_2_drop/).
@@ -13,7 +14,7 @@ Play with the [interactive demo here](https://teapearce.github.io/portfolio/gith
 
 [notebook_examples](notebook_examples) provides lightweight demo code for a Bayesian anchored ensemble in PyTorch / Keras / Tensorflow for regression and classification.
 
-### Trimmed Down Code
+### Main Code
 
 Folder [regression](regression) contains code to regression experiments as follows.
 - [script_methods.py](regression/script_methods.py) - this creates figure 4 of the paper, running 1-D regression example for GP, MC dropout, and Anchored Ensemble. Due to compatibility issues with Edward, HMC and VI are now handled elsewhere. 
@@ -52,7 +53,5 @@ sklearn
 pymc3                              
 '3.5'
 
-theano
+theano (use with pymc3)
 '1.0.3'
-
-

@@ -13,17 +13,18 @@ Play with the [interactive demo here](https://teapearce.github.io/portfolio/gith
 
 [notebook_examples](notebook_examples) provides lightweight demo code for a Bayesian anchored ensemble in PyTorch / Keras / Tensorflow for regression and classification.
 
-### Main Code
+### Main Files
 - [script_methods.py](regression/script_methods.py) - this creates figure 4 of the paper, running 1-D regression example for GP, MC dropout, and Anchored Ensemble. Due to compatibility issues with Edward, HMC and VI are now handled elsewhere. 
 - [pymc_HMC_VI.py](regression/pymc_HMC_VI.py) - creates VI and HMC plots for figure 4 of paper.
 - [main_exp.py](regression/main_exp.py) - runs UCI benchmarking experiments.
 - [main_converge.py](regression/main_converge.py) - runs convergence comparison between GP and anchored ensembles as in figure 7 on Boston dataset.
-- [script_anch_need.py](regression/script_anch_need.py) - creates regression portion of figure 6, showing why anchored ensembles is better approximation of the Bayesian posterior than other ensembling methods.
+- [script_anch_need.py](regression/script_anch_need.py) - creates regression portion of figure 6, showing why anchored ensembles is a better approximation of the Bayesian posterior than other ensembling methods.
+- [2d_class_need_03.py](classification/2d_class_need_03.py) - creates classification portion of figure 6.
 - [2d_anch_plots_algorithm.py](2d_plots/2d_anch_plots_algorithm.py) - creates visualisation of the algorithm in figure 2.
 - [2d_post_comparison.py](2d_plots/2d_post_comparison.py) - creates visualisation of the posterior comparison made in figure 3 between analytical, RMS and MFVI.
 
 
-### Supporting code
+### Supporting Files
 - [DataGen.py](regression/DataGen.py) - handles data set generation or read in.
 - [hyperparams.py](regression/hyperparams.py) - holds hyperparameters used in UCI benchmarking.
 - [utils.py](regression/utils.py) - handles some plotting and support functions.

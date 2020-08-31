@@ -1,7 +1,7 @@
 ## Uncertainty in Neural Networks: Approximately Bayesian Ensembling
-Code from paper 'Uncertainty in Neural Networks: Approximately Bayesian Ensembling' - https://arxiv.org/abs/1810.05546
+Code from AISTATS 2020 paper 'Uncertainty in Neural Networks: Approximately Bayesian Ensembling' - https://arxiv.org/abs/1810.05546
 
-Play with the [interactive demo here](https://teapearce.github.io/portfolio/github_io_1_ens/). See how it compares to [dropout here](https://teapearce.github.io/portfolio/github_io_2_drop/).
+15 minute [introduction here](youtu.be/eBKqvgecRjc). Play with the [interactive demo here](https://teapearce.github.io/portfolio/github_io_1_ens/). See how it compares to [dropout here](https://teapearce.github.io/portfolio/github_io_2_drop/).
 
 <p align="center">
 <img width="400" src="html_demos/images/html_demo_rec_02.gif"/img>  
@@ -45,11 +45,11 @@ numpy
 matplotlib                                                      
 '3.0.1'
 
-sklearn
+sklearn  
 '0.20.0'
 
 pymc3                              
 '3.5'
 
-theano (use with pymc3)
+theano (used with pymc3)   
 '1.0.3'
